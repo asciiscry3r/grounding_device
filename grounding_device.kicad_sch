@@ -2716,6 +2716,12 @@
 		(uuid "515b3dbc-5092-4cb0-9a3e-5014d0ab0d19")
 	)
 	(junction
+		(at 134.62 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52da61b4-457a-453d-ae9e-bdfdca7da65d")
+	)
+	(junction
 		(at 77.47 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3268,6 +3274,12 @@
 		(uuid "f2ebaa20-884c-4ff5-9d16-c9c3f68315e7")
 	)
 	(junction
+		(at 156.21 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f51dc238-de5d-48be-bd8a-150860d7534b")
+	)
+	(junction
 		(at 170.18 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3556,6 +3568,16 @@
 			(type default)
 		)
 		(uuid "0cec01d6-ea59-4613-8595-48e9923d4929")
+	)
+	(wire
+		(pts
+			(xy 134.62 135.89) (xy 134.62 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf10b7c-8338-48c7-8b22-96ce58b1eb4b")
 	)
 	(wire
 		(pts
@@ -4109,16 +4131,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 167.64) (xy 165.1 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298abf1d-72ab-407f-8495-072ce4016b61")
-	)
-	(wire
-		(pts
 			(xy 224.79 69.85) (xy 208.28 69.85)
 		)
 		(stroke
@@ -4459,7 +4471,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 130.81) (xy 134.62 153.67)
+			(xy 134.62 130.81) (xy 134.62 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4996,6 +5008,16 @@
 			(type default)
 		)
 		(uuid "5e8f2815-ac36-4ab8-9935-29b35f5fa19d")
+	)
+	(wire
+		(pts
+			(xy 142.24 167.64) (xy 156.21 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eabf891-46d4-4e43-950d-6a044a091380")
 	)
 	(wire
 		(pts
@@ -5779,6 +5801,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 167.64) (xy 165.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836ac769-796e-43bf-9407-69db4ffe442c")
+	)
+	(wire
+		(pts
 			(xy 229.87 29.21) (xy 229.87 30.48)
 		)
 		(stroke
@@ -5979,6 +6011,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 135.89) (xy 134.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f11a3a5-50db-41ce-9b0c-8f6c4a7f2f85")
+	)
+	(wire
+		(pts
 			(xy 151.13 62.23) (xy 151.13 83.82)
 		)
 		(stroke
@@ -6146,6 +6188,16 @@
 			(type default)
 		)
 		(uuid "95d610e0-0a40-438d-843e-9cda093a828f")
+	)
+	(wire
+		(pts
+			(xy 142.24 160.02) (xy 142.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95eb3b9f-4ba5-4b38-af14-68e28e7cd92b")
 	)
 	(wire
 		(pts
@@ -7696,6 +7748,16 @@
 			(type default)
 		)
 		(uuid "da7356e7-0384-454e-b17c-4409ebc98338")
+	)
+	(wire
+		(pts
+			(xy 142.24 139.7) (xy 142.24 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8c2ac9-5104-4049-862a-77a4e8839bd6")
 	)
 	(wire
 		(pts
@@ -11278,6 +11340,95 @@
 			(project "grounding_device"
 				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:R")
+		(at 142.24 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39f05d9f-7600-476b-8df5-92758048fe32")
+		(property "Reference" "R60"
+			(at 144.78 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2Om"
+			(at 144.78 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 145.415 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "W"
+			(at 139.7 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0652805a-c076-4f6e-a0b3-c46de83ec16b")
+		)
+		(pin "2"
+			(uuid "f679bcc1-db96-4646-beb4-afab0eabcc57")
+		)
+		(instances
+			(project "grounding_device"
+				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -17368,6 +17519,95 @@
 			(project "grounding_device"
 				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 142.24 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98bd3594-1352-40c8-9a02-47747fabcd86")
+		(property "Reference" "C28"
+			(at 146.05 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 146.05 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 140.97 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 141.605 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e746760-2437-4c7c-8241-ae0d8baa728c")
+		)
+		(pin "2"
+			(uuid "232ee126-355d-42cf-a258-18c9f104eb6b")
+		)
+		(instances
+			(project "grounding_device"
+				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
+					(reference "C28")
 					(unit 1)
 				)
 			)
