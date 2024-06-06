@@ -3231,6 +3231,12 @@
 		(uuid "0d3a4028-326f-4577-b2a7-d1c9dd8318c6")
 	)
 	(junction
+		(at 264.16 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d8927bf-918b-43de-aaeb-c3c213c6e3d6")
+	)
+	(junction
 		(at 127 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3385,6 +3391,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26c93b25-36ed-4080-b474-dd5270115bcf")
+	)
+	(junction
+		(at 255.27 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28cf7568-67c9-49ee-b011-0aae964b1035")
 	)
 	(junction
 		(at 27.94 35.56)
@@ -5511,6 +5523,16 @@
 			(type default)
 		)
 		(uuid "31742309-d467-43c1-86d5-218baaa34628")
+	)
+	(wire
+		(pts
+			(xy 255.27 83.82) (xy 255.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3205e2ff-1cf5-4fb7-a1fd-86ff3912709f")
 	)
 	(wire
 		(pts
@@ -7954,6 +7976,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 74.93) (xy 276.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f0fd1b-0150-4881-a032-e29e9a2c86d8")
+	)
+	(wire
+		(pts
 			(xy 246.38 127) (xy 261.62 127)
 		)
 		(stroke
@@ -9534,6 +9566,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 48.26) (xy 276.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d101eb06-2647-4a85-aa84-e4a2ed3d381e")
+	)
+	(wire
+		(pts
 			(xy 226.06 107.95) (xy 226.06 120.65)
 		)
 		(stroke
@@ -9731,6 +9773,16 @@
 			(type default)
 		)
 		(uuid "d8eec7b5-cd88-4860-b99d-7d2ddd49e029")
+	)
+	(wire
+		(pts
+			(xy 276.86 48.26) (xy 276.86 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f99cfc-d687-4e1b-8903-999e8159de05")
 	)
 	(wire
 		(pts
@@ -10471,6 +10523,16 @@
 			(type default)
 		)
 		(uuid "f5213b9d-9697-48fe-8415-b8c9bacd5e73")
+	)
+	(wire
+		(pts
+			(xy 276.86 85.09) (xy 255.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ace6cb-bd0b-4a8a-9def-912b66f4d0cf")
 	)
 	(wire
 		(pts
@@ -11442,6 +11504,95 @@
 			(project "filer_for_pc"
 				(path "/cdde10a9-1f5d-4493-ba10-a349138f6d4d"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 15.24 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0336e81c-d828-42ff-a6a4-eebe57640501")
+		(property "Reference" "C38"
+			(at 19.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 nF"
+			(at 19.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 15.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 13.97 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 14.605 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3883dd-ac1b-4d54-b548-0adb59b1c77d")
+		)
+		(pin "2"
+			(uuid "bb8f940c-8809-48c3-92c4-275f5f1c5aff")
+		)
+		(instances
+			(project "grounding_device"
+				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -18865,6 +19016,94 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 276.86 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84f0b40a-2143-4ee4-9a37-4a5d9626b039")
+		(property "Reference" "C39"
+			(at 280.162 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 pF"
+			(at 277.622 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 275.59 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 276.225 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "219498c1-c8a7-4279-b80c-eab059d2734e")
+		)
+		(pin "2"
+			(uuid "3cda7c1b-6913-412c-956d-2104344f9766")
+		)
+		(instances
+			(project "grounding_device"
+				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Transistor_BJT_AKL:2N2222")
 		(at 40.64 38.1 0)
 		(unit 1)
@@ -23404,95 +23643,6 @@
 			(project "grounding_device"
 				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 15.24 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c71433bd-76e6-419d-8d7e-ef60b606c969")
-		(property "Reference" "R40"
-			(at 17.78 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10-9.5 MOM"
-			(at 17.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 15.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 15.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 15.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 12.065 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 17.78 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c32c632-45a5-411d-be4b-5d7f669f4b2e")
-		)
-		(pin "2"
-			(uuid "52a5ae30-618c-4306-840d-833638a92a3c")
-		)
-		(instances
-			(project "grounding_device"
-				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
-					(reference "R40")
 					(unit 1)
 				)
 			)
