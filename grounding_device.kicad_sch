@@ -10551,6 +10551,16 @@
 		)
 		(uuid "15b198ad-ad08-4a96-a210-71b0890f3669")
 	)
+	(text "if you will to connect hight loaded \nAC devcie use different ground \nfor internal GD filters."
+		(exclude_from_sim no)
+		(at 145.034 136.652 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a32dec1-8109-45fe-820b-859000c8f5a7")
+	)
 	(text "21.08.2023\n"
 		(exclude_from_sim no)
 		(at 270.51 168.91 0)
