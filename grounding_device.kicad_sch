@@ -1251,6 +1251,261 @@
 				)
 			)
 		)
+		(symbol "PCM_Elektuur:D-Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${SIM.PARAMS}"
+				(at 0.635 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener/avalanche diode; unidirectional breakdown diode; voltage regulator diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "2=1 1=2"
+				(at 1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "type=\"\" model=\"D-Zener\" lib=\"semiconductor.lib\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "W"
+				(at -0.635 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "D semiconductor diode breakdown Zener Z-diode avalanche"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D-Zener_1_1"
+				(polyline
+					(pts
+						(xy 0 -0.127) (xy -1.905 2.667) (xy 1.905 2.667) (xy -1.524 -2.3622) (xy -1.524 -2.2098) (xy 1.905 -2.2098)
+						(xy 1.905 -2.667) (xy -1.905 -2.667) (xy -1.905 -2.4384) (xy 0 0.3556) (xy 0 -0.127)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.413)
+					(name "K-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.413)
+					(name "A+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-Zener_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy 1.905 -1.905) (xy 1.905 -1.143) (xy 0 -1.143) (xy 0 -0.889) (xy 1.905 1.905)
+						(xy -1.905 1.905) (xy 0 -0.889) (xy 0 -1.143) (xy -1.651 -1.143) (xy -1.651 -0.127) (xy -1.905 -0.127)
+						(xy -1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.175)
+					(name "K-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.175)
+					(name "A+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-Zener_1_3"
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy 1.651 -1.905) (xy 1.651 -2.921) (xy 1.905 -2.921) (xy 1.905 -1.143) (xy 0 -1.143)
+						(xy 0 -0.889) (xy 1.905 1.905) (xy -1.905 1.905) (xy 0 -0.889) (xy 0 -1.143) (xy -1.651 -1.143)
+						(xy -1.651 -0.127) (xy -1.905 -0.127) (xy -1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.175)
+					(name "K-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.175)
+					(name "A+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_Elektuur:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3730,6 +3985,12 @@
 		(uuid "8ee1ab39-0883-4413-84d1-c42cbf9eb5b3")
 	)
 	(junction
+		(at 20.32 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9077ebcd-add8-4572-aa71-54c841df11da")
+	)
+	(junction
 		(at 217.17 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4232,6 +4493,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f900e5f3-93ff-40df-b76b-9e2059c18e30")
+	)
+	(junction
+		(at 20.32 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcab8603-7ee4-4edb-b185-c014d1a0e5d3")
 	)
 	(junction
 		(at 77.47 172.72)
@@ -4771,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 68.58) (xy 16.51 83.82)
+			(xy 20.32 68.58) (xy 20.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4971,6 +5238,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 50.8) (xy 20.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dee14e-ad42-44ee-9bd3-367f51855907")
+	)
+	(wire
+		(pts
 			(xy 106.68 115.57) (xy 106.68 107.95)
 		)
 		(stroke
@@ -5121,7 +5398,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 63.5) (xy 16.51 50.8)
+			(xy 20.32 63.5) (xy 20.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5448,6 +5725,16 @@
 			(type default)
 		)
 		(uuid "392ca7be-a60c-426f-a9a4-84053d920de0")
+	)
+	(wire
+		(pts
+			(xy 16.51 83.82) (xy 20.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa29958-9ab3-4036-85c0-366a8bfaf745")
 	)
 	(wire
 		(pts
@@ -6421,6 +6708,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 78.74) (xy 16.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e7bc7a-3a83-4f3e-85f7-dc054a2b275f")
+	)
+	(wire
+		(pts
 			(xy 163.83 60.96) (xy 143.51 60.96)
 		)
 		(stroke
@@ -7011,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 50.8) (xy 30.48 50.8)
+			(xy 20.32 50.8) (xy 30.48 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8391,7 +8688,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 83.82) (xy 26.67 83.82)
+			(xy 20.32 83.82) (xy 26.67 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9531,6 +9828,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 68.58) (xy 16.51 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ecebc1-aa7a-420f-9599-cddcf3213f77")
+	)
+	(wire
+		(pts
 			(xy 142.24 68.58) (xy 139.7 68.58)
 		)
 		(stroke
@@ -10484,6 +10791,94 @@
 			(project "grounding_device"
 				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:D-Zener")
+		(at 16.51 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04865a8c-788c-48cf-b343-370d4f824b90")
+		(property "Reference" "D1"
+			(at 20.32 73.0249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 20.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener/avalanche diode; unidirectional breakdown diode; voltage regulator diode"
+			(at 16.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" "type=\"\" model=\"D-Zener\" lib=\"semiconductor.lib\""
+			(at 16.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "W"
+			(at 17.145 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64bc2b2c-6387-407f-ab39-52a51a603638")
+		)
+		(pin "1"
+			(uuid "27b19b90-d831-4b8b-aa69-cdd74240dc2e")
+		)
+		(instances
+			(project ""
+				(path "/63bcada5-65b5-4df8-beff-81b8339c1d00"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -19481,7 +19876,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Capacitor:47uF_5x5.3_16V")
-		(at 16.51 66.04 0)
+		(at 20.32 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19490,7 +19885,7 @@
 		(fields_autoplaced yes)
 		(uuid "abf02deb-f3ef-49f0-ba16-91ec5ab1544c")
 		(property "Reference" "C19"
-			(at 19.05 64.3382 0)
+			(at 22.86 64.3382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19499,7 +19894,7 @@
 			)
 		)
 		(property "Value" "47uF_5x5.3_16V"
-			(at 16.51 62.23 0)
+			(at 20.32 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19508,7 +19903,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
-			(at 14.605 70.485 0)
+			(at 18.415 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19518,7 +19913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 66.04 0)
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19527,7 +19922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.51 66.04 0)
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19536,7 +19931,7 @@
 			)
 		)
 		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 13.97 73.914 0)
+			(at 17.78 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19546,7 +19941,7 @@
 			)
 		)
 		(property "Manufacturer" "Lelon"
-			(at 13.97 75.438 0)
+			(at 17.78 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19556,7 +19951,7 @@
 			)
 		)
 		(property "Part Number" "VE-470M1CTR-0505"
-			(at 13.97 76.962 0)
+			(at 17.78 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19566,7 +19961,7 @@
 			)
 		)
 		(property "Display" "47uF/16V"
-			(at 19.05 66.8782 0)
+			(at 22.86 66.8782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19575,7 +19970,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C134798"
-			(at 16.51 78.74 0)
+			(at 20.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
