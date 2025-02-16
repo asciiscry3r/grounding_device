@@ -14447,7 +14447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "10-33uF/10-50V"
+		(property "Display" "1-33uF/10-50V"
 			(at 99.06 77.0382 0)
 			(effects
 				(font
@@ -17653,7 +17653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "10-33uF/10-50V"
+		(property "Display" "1-33uF/10-50V"
 			(at 161.29 77.0382 0)
 			(effects
 				(font
@@ -20294,7 +20294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "10-33uF/10-50V"
+		(property "Display" "1-33uF/10-50V"
 			(at 36.83 77.0382 0)
 			(effects
 				(font
@@ -21012,7 +21012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "10-33uF/10-50V"
+		(property "Display" "1-33uF/10-50V"
 			(at 223.52 77.0382 0)
 			(effects
 				(font
